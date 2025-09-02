@@ -1,0 +1,693 @@
+
+ /* Extra large devices */
+ @media (min-width: 1200px) { 
+    .formPart input {
+        background: transparent;
+        padding: 19px 151px 19px 23px;
+        border: 1px solid #D0D0D0;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .formPart button {
+        color: #fff;
+        background: #6A4DF4;
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 500;
+        border: none;
+        padding: 19px 180px;
+        border-radius: 10px;
+        margin-top: 20px;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        transition: .5s ease;
+    }
+    .fotterMenuPart {
+        display: flex;
+        justify-content: space-between;
+    }
+ }
+
+/*  Large devices */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-brand img{
+        margin-left: 0;
+    }
+    .banneroverlay {
+        padding-top: 214px;
+        padding-bottom: 130px;
+    }
+
+    .bannertext h1 {
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .bannertext p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 0px 80px;
+        margin-top: 26px;
+    }
+
+    #Counter {
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+    #service {
+        padding: 60px 0;
+    }
+    .serviceitemtext p {
+        font-size: 13px;
+        font-weight: 400;
+    }
+#work {
+	padding-top: 70px;
+	padding-bottom: 80px;
+}
+.agencetext h3 {
+	font-size: 36px;
+}
+.agencetext p {
+	color: #737373;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 20px;
+	padding: 0 12px;
+	margin-bottom: 100px;
+}
+#agence {
+	padding: 80px 0;
+}
+.clintitem P {
+	color: #7B7B7B;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 26px;
+}
+#clint {
+	padding-bottom: 65px;
+}
+#getsupport {
+	background: #F3F3F3;
+	padding-top: 75px;
+	padding-bottom: 100px;
+}
+.formPart input {
+	background: transparent;
+	padding: 19px 80px 19px 23px;
+	border: 1px solid #D0D0D0;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.formPart button {
+	color: #fff;
+	background: #6A4DF4;
+	font-size: 14px;
+	line-height: 26px;
+	font-weight: 500;
+	border: none;
+	padding: 0px 142px;
+	border-radius: 10px;
+	margin-top: 20px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	transition: .5s ease;
+}
+.footerLogoPart p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #7B7B7B;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+.fotterMenuPart {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
+
+
+
+ /* Medium devices */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* header part start */
+ .navbar-toggler i{
+    color:#fff ;
+    font-size: 25px;
+}
+.navbar-brand img{
+    margin-left: 0;
+}
+.navbar-nav {
+    background: #4756DF;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 39px; */
+}
+.banneroverlay {
+    padding-top: 214px;
+    padding-bottom: 130px;
+}
+.bannertext h1 {
+    font-size: 48px;
+}
+.bannertext p {
+	font-size: 24px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#Counter {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.counterLeftItem h4 {
+    text-align: center;
+}
+.counterLeftItem h3 {
+	font-size: 52px;
+	text-align: center;
+	padding-right: 0;
+	margin-bottom: 30px;
+	line-height: 56px;
+}
+.counterItem h3 {
+	font-size: 48px;
+	padding-bottom: 10px;
+}
+.counterItem {
+    text-align: center;
+}
+.servicetext h3 {
+	font-size: 36px;
+}
+.servicetext p {
+	color: #737373;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+	margin-top: 20px;
+	padding: 0px 61px;
+	margin-bottom: 10px;
+}
+.serviceitemtext h3 {
+
+	padding-left: 40px;
+}
+.serviceitemtext p {
+	color: #737373;
+	font-size: 18px;
+	font-weight: 400;
+	padding: 0 50px;
+}
+.serviceitem img{
+    margin-left: 43px;
+}
+#work {
+	padding-top: 65px;
+	padding-bottom: 72px;
+}
+.workitemtext p {
+	padding: 0 175px;
+    font-size: 18px;
+}
+.worktext p {
+	color: #737373;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 20px;
+	padding: 0 12px;
+	margin-bottom: 50px;
+}
+.workitem img {
+	width: 90%;
+    margin-left: 36px;
+}
+.agencetext h3 {
+	font-size: 62px;
+}
+.agencetext p {
+	font-size: 24px;
+	padding: 0;
+	margin-bottom: 70px;
+	line-height: 36px;
+}
+.agenceitem p {
+	padding: 0 100px;
+}
+.agenceitem {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.agenceitem h3 {
+	padding-top: 25px;
+	padding-bottom: 15px;
+	color: #151515;
+	font-size: 25px;
+	font-weight: 700;
+	padding-left: 56px;
+}
+.agenceitem p {
+	color: #737373;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
+	padding: 0 100px;
+}
+#agence {
+    padding: 65px 0;
+}
+.jhamelaleft img {
+	margin-left: 135px;
+}
+.agenceitem img{
+    margin-left: 45px;
+}
+.proimg img{
+    margin-left: 15px;
+}
+.clintitem {
+	padding: 38px 0;
+	text-align: center;
+}
+.clinttext p {
+	color: #737373;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-top: 20px;
+	padding: 0 61px;
+	margin-bottom: 50px;
+}
+.clintprofile {
+    display: block;
+}
+#clint {
+    padding-bottom: 65px;
+}
+#getsupport {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.leftSupport  {
+    width: 100%;
+}
+.leftSupport h1 {
+	font-size: 46px;
+	text-align: center;
+	padding-right: 0px;
+}
+.leftSupport p {
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 0 35px;
+    font-size: 18px;
+}
+.formPart input {
+	padding: 19px 395px 19px 15px;
+}
+.formPart button {
+    font-size: 16px;
+    padding: 19px 45px;
+}
+#footer {
+    margin-top: 50px;
+}
+.footerLogoPart p {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #7B7B7B;
+	margin-top: 30px;
+	margin-right: 55px;
+	padding: 0 60px;
+    margin-right: 0;
+    text-align: center;
+}
+.fotterMenuItem h4 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.fotterMenuItem{
+    text-align: center;
+}
+/* header part end */ 
+ }
+
+/* Small devices */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ /* header part start */
+ .navbar-toggler i{
+    color:#fff ;
+    font-size: 25px;
+}
+.navbar-brand img{
+    margin-left: 0;
+}
+.navbar-nav {
+    background: #4756DF;
+    text-align: center;
+    border-radius: 10px;
+    /* margin-top: 39px; */
+}
+.banneroverlay {
+    padding-top: 214px;
+    padding-bottom: 130px;
+}
+.bannertext h1 {
+    font-size: 36px;
+}
+.bannertext p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0;
+    margin-top: 40px;
+}
+#Counter {
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+.counterLeftItem h4 {
+    text-align: center;
+}
+.counterLeftItem h3 {
+    font-size: 36px;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.counterItem h3 {
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+.counterItem {
+    text-align: center;
+}
+.servicetext h3 {
+    font-size: 28px;
+}
+#work {
+	padding-top: 65px;
+	padding-bottom: 72px;
+}
+.workitemtext p {
+	padding: 0 100px;
+}
+.agencetext h3 {
+	font-size: 46px;
+}
+.agencetext p {
+	font-size: 18px;
+	padding: 0;
+	margin-bottom: 70px;
+}
+.agenceitem p {
+	padding: 0 100px;
+}
+.agenceitem {
+    text-align: center;
+    margin-bottom: 45px;
+}
+#agence {
+    padding: 65px 0;
+}
+.jhamelaleft img{
+    margin-left: 47px;
+}
+.proimg img{
+    margin-left: 15px;
+}
+.clintitem {
+    padding: 0;
+    text-align: center;
+}
+.clintprofile {
+    display: block;
+}
+#clint {
+    padding-bottom: 65px;
+}
+#getsupport {
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.leftSupport  {
+    width: 100%;
+}
+.leftSupport h1 {
+    font-size: 32px;
+    text-align: center;
+    padding-right: 0;
+}
+.leftSupport p {
+    text-align: center;
+	margin-bottom: 35px;
+}
+.formPart input {
+	padding: 19px 220px 19px 13px;
+}
+.formPart button {
+    font-size: 16px;
+    padding: 19px 45px;
+}
+#footer {
+    margin-top: 50px;
+}
+.footerLogoPart p {
+    margin-right:0;
+    text-align: center;
+}
+.fotterMenuItem h4 {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.fotterMenuItem{
+    text-align: center;
+}
+/* header part end */
+ }
+
+
+
+
+
+
+
+
+
+
+  /* Extra small devices  */
+@media (max-width: 575.98px) { 
+    /* header part start */
+    .navbar-toggler i{
+        color:#fff ;
+        font-size: 25px;
+    }
+    .navbar-nav {
+        background: #4756DF;
+        text-align: center;
+        border-radius: 10px;
+        /* margin-top: 39px; */
+    }
+    .navbar-brand img{
+        margin-left: 0;
+    }
+    .banneroverlay {
+        padding-top: 214px;
+        padding-bottom: 130px;
+    }
+    .bannertext h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    .bannertext p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        padding: 0;
+        margin-top: 40px;
+    }
+    #Counter {
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    .counterLeftItem h4 {
+        text-align: center;
+    }
+    .counterLeftItem h3 {
+        font-size: 40px;
+        text-align: center;
+        padding-right: 0;
+        margin-bottom: 30px;
+        line-height: 46px;
+    }
+    .counterItem h3 {
+        font-size: 36px;
+        padding-bottom: 0px;
+    }
+    .counterItem {
+        text-align: center;
+    }
+    .servicetext h3 {
+        font-size: 36px;
+    }
+    .servicetext p {
+        color: #737373;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-top: 20px;
+        padding: 0 47px;
+        margin-bottom: 16px;
+    }
+    .agencetext h3 {
+        font-size: 36px;
+    }
+    .agencetext p {
+        font-size: 15px;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+    .agenceitem img{
+        margin-left: 10px;
+    }
+    .agenceitem {
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    #agence {
+        padding: 65px 0;
+    }
+    #work {
+        padding-top: 55px;
+        padding-bottom: 140px;
+        background: #F3F3F3;
+    }
+    .workitemtext p {
+        padding: 0 60px;
+        font-size: 18px;
+    }
+    .jhamelaleft img{
+        margin-left: 65px;
+    }
+    .clintitem {
+        padding: 0;
+        text-align: center;
+    }
+    .clintprofile {
+        display: block;
+    }
+    #clint {
+        padding-bottom: 65px;
+    }
+    #getsupport {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .leftSupport  {
+        width: 100%;
+    }
+    .leftSupport h1 {
+        font-size: 36px;
+        text-align: center;
+        padding-right: 0;
+    }
+    .leftSupport p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #7B7B7B;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .formPart input {
+        padding: 19px 260px 19px 8px;
+    }
+    .formPart button {
+        font-size: 16px;
+        padding: 19px 45px;
+    }
+    #footer {
+        margin-top: 50px;
+    }
+    .footerLogoPart p {
+        margin-right:0;
+        text-align: center;
+    }
+    .fotterMenuItem h4 {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .fotterMenuItem{
+        text-align: center;
+    }
+    /* header part end */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+    /* header part start */
+    /* header part end */
+}
